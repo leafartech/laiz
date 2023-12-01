@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grad-my {
+    background: linear-gradient(159deg, #020514 0%, #040A25 56.77%, #020514 100%);
+}
+.grad-fixed {
+    background-image: url('../../public/images/v-2/bg2.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center
+}
+@media (max-width: 450px) {
+    .grad-fixed {
+        background-attachment: local;
+        background-size: cover;
+    }
+}
