@@ -1,7 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.grad-my {
-    background: linear-gradient(159deg, #020514 0%, #040A25 56.77%, #020514 100%);
-}
