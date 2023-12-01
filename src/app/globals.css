@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grad-my {
+    background: linear-gradient(159deg, #020514 0%, #040A25 56.77%, #020514 100%);
+}
+.text-grad {
+    background: linear-gradient(90deg, #00FFA3 0%, #00D88A 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.grad-sec {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.80) 0%, #10B981 51.04%, rgba(16, 185, 129, 0.80) 100%);
+}
