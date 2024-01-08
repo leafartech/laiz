@@ -27,3 +27,6 @@ background-clip: text;
     padding: 8px!important;
     width: 100%
 }
+._form-branding {
+    display: none;
+}
