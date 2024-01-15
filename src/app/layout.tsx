@@ -29,7 +29,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         ` }} />
       </head>
       <body className={inter.className}>
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THL2XT75"></iframe></noscript>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THL2XT75"
+          height="0" width="0"></iframe></noscript>
         {children}
       </body>
     </html>
